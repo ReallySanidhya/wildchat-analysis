@@ -5,7 +5,7 @@ from visualizer import render_conversation_ui
 # ── Config ──
 DOMAIN    = "medical"   # medical, ticket_booking, legal, finance
 MIN_TURNS = 3
-OLLAMA_URL = "http://localhost:11434/api/generate"  # or your ngrok URL
+OLLAMA_URL = "http://localhost:11434/api/generate"  
 
 # ── Load data ──
 df_multi = load_wildchat(n=20000)
